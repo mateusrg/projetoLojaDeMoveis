@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 62.5%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    background-color: rgb(122, 183, 227);
+    height: 10vh;
+    width: calc(100vw - 35px);
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    z-index: 1;
+}
+
+main {
+    height: 313vh;
+}
+
+.lancamento {
+    background-color: lightblue;
+    height: 84vh;
+    margin-top: 13vh;
+    text-align: center;
+}
+
+.img-menu {
+    height: 4vh;
+    min-height: 30px;
+    width: auto;
+}
+
+.img-logo {
+    height: 13vh;
+    min-height: 97.5px;
+    width: auto;
+}
+
+.header-direita {
+    width: 40vw;
+    min-width: fit-content;
+    max-width: 310px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pesquisar {
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+.fazer-login {
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    border: none;
+    border-radius: 20px;
+}
+
+.logo {
+    position: absolute;
+    width: calc(100% - 20px);
+    text-align: center;
+}
+
+#casa {
+    margin-top: 4vh;
+    height: 95%;
+    width: auto;
+}
+
+#div-texto-lancamento {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+.anuncio-texto {
+    margin-left: 4.1vw;
+}
+
+.frases {
+    height: 35vh;
+    width: auto;
+    margin: 30px 100px;
+    align-items: center;
+    padding: 2rem 0rem 0rem 2rem;
+    background-color: lightgreen;
+    border-radius: 15px;
+}
+
+.anuncio {
+    width: 90vw;
+}
+
+.ad {
+    height: auto;
+    width: 100%;
+}
+
+.anuncio div {
+    position: absolute;
+    padding: 2px;
+}
+
+.x_info {
+    width: auto;
+}
+
+.x {
+    height: 12px;
+    margin: 1.5px 0px;
+}
+
+.info {
+    height: 15px;
+}
+
+.produto {
+    border-radius: 15px;
+    margin-top: 25px;
+    width: fit-content;
+}
+
+.produto img {
+    border-radius: 0px 0px 15px 15px;
+    height: auto;
+    width: 40vw;
+}
+
+.produto div {
+    background-color: lightgray;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.produto div h2 {
+    margin-left: 3%;
+}
+
+.div_suporte {
+    width: 98vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+aside {
+    position: relative;
+    left: 75vw;
+    bottom: 40vh;
+    width: 20vw;
+}
+
+aside img {
+    height: 30vh;
+}
+
+aside div {
+    position: absolute;
+    left: 80px;
+    bottom: 60px;
+}
+
+#canto {
+    position: absolute;
+    height: 10vw;
+    width: auto;
+    right: 0px;
+    bottom: 0vh;
+}
+
+h1 {
+    font-size: 10rem;
+    font-weight: 1000;
+}
+
+h2 {
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 5rem;
+    font-weight: 300;
+}
+
+span {
+    font-weight: 1000;
+}
+
+h4 {
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+
+aside h3 {
+    font-weight: 900;
+}
+
+aside h4 {
+    font-weight: 900;
+}
+
+footer {
+    position: relative;
+}
